@@ -1,0 +1,28 @@
+1. init command
+used to make a a local repo as github repo after that we can use all git command on it.
+
+2. git remote add origin < link of github repository that u have created>
+
+3. git remote -v
+
+to verify that the linking is done succesfully or not
+
+4. git branch
+
+this is used to check in which branch we are .
+it master written u have to change it to main using 
+below command.
+
+5. git branch -M "name of branch" generally "main".
+
+6. last main push karne ke liye 
+
+git push origin main
+
+if u want to short it u can use 
+<git push -u origin main> 
+after it u just need to write <git push>
+
+7. <git pull origin main>
+this is used agar u make change in github and u push in local repo so before doing push u have to pull the changes and then push.
+
