@@ -1,0 +1,35 @@
+sab delter ho
+* main
+PS C:\Git Demo\localrepo> git status 
+PS C:\Git Demo\localrepo> git status
+On branch feature2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)        
+        branch command
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Git Demo\localrepo> git add "branch command"
+PS C:\Git Demo\localrepo> git commit -m "added branch command file"     
+[feature2 fbcaa80] added branch command file
+ 1 file changed, 51 insertions(+)
+ create mode 100644 branch command
+PS C:\Git Demo\localrepo> git status
+On branch feature2
+nothing to commit, working tree clean
+PS C:\Git Demo\localrepo> git push
+fatal: The current branch feature2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature2
+
+To have this happen automatically for branches without a tracking       
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Git Demo\localrepo> git push origin main
+Everything up-to-date
+PS C:\Git Demo\localrepo> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Git Demo\localrepo> git push
+Everything up-to-date
+PS C:\Git Demo\localrepo>
